@@ -6,7 +6,7 @@ Resources:
     Type: AWS::CodeBuild::Project
     Properties:
       Name: python-hello-world-demo
-      ServiceRole: arn:aws:iam::284818286831:instance-profile/codedeploy-role
+      ServiceRole: arn:aws:iam::284818286831:role/codedeploy-role
       Source:
         Type: GITHUB
         Location: https://github.com/abiola0227/CodeDeploy_Repo.git
