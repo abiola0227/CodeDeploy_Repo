@@ -15,7 +15,7 @@ Resources:
         ReportBuildStatus: false
         Auth:
           Type: OAUTH
-          Resource: arn:aws:codeconnections:us-east-2:284818286831:connection/fc95dffa-3169-43f8-ac55-755d6405f610
+          Resource: arn:aws:codeconnections:us-east-2:284818286831:connection/5ad4979f-7dcc-4362-b35f-881e2164d52a
       Triggers:
         Webhook: true
       Artifacts:
