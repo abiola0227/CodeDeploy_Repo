@@ -13,6 +13,9 @@ Resources:
         GitCloneDepth: 1
         InsecureSsl: false
         ReportBuildStatus: false
+        Auth:
+          Type: OAUTH
+          Resource: arn:aws:codeconnections:us-east-2:284818286831:connection/fc95dffa-3169-43f8-ac55-755d6405f610
       Triggers:
         Webhook: true
       Artifacts:
